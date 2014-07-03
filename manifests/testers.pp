@@ -1,4 +1,4 @@
-class test-vos::testers {
+class puppet-test-vos::testers {
   include puppet-voms
 
   puppet-voms::client{'testers.eu-emi.eu':

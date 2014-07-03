@@ -1,4 +1,4 @@
-class test-vos::dteam {
+class puppet-test-vos::dteam {
   include puppet-voms
   puppet-voms::client{'dteam': 
   servers => [{ server => 'voms.hellasgrid.gr',

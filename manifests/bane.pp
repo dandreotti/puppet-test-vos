@@ -1,4 +1,4 @@
-class test-vos::bane {
+class puppet-test-vos::bane {
   include puppet-voms
 
   puppet-voms::client{'bane':

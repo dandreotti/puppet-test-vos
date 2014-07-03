@@ -1,4 +1,4 @@
-class test-vos::test_vo_2 {
+class puppet-test-vos::test_vo_2 {
   include puppet-voms
 
   puppet-voms::client{'test.vo.2':
