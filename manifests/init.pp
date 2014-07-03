@@ -1,3 +1,3 @@
 class puppet-test-vos {
-	include test-vos::bane, test-vos::testers, test-vos::test_vo, test-vos::test_vo_2, test-vos::dteam
+	include puppet-test-vos::bane, puppet-test-vos::testers, puppet-test-vos::test_vo, puppet-test-vos::test_vo_2, puppet-test-vos::dteam
 }
